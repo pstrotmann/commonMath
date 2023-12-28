@@ -1,10 +1,7 @@
 package commonmath
-
-import org.apache.commons.math3.distribution.*
+import org.apache.commons.math3.distribution.NormalDistribution
 
 class MathImportController {
-    //NormalDistribution not accessible
-
-
+     NormalDistribution normalDistribution = new NormalDistribution()
     def index() { }
 }
